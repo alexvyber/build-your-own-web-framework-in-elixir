@@ -34,6 +34,7 @@ defmodule CowboyExample.Router.Handlers.Greet do
   end
 
   # General clause for init/2 which responds with 404
+  #
   def init(req0, state) do
     Logger.info("Received request: #{inspect(req0)}")
 
